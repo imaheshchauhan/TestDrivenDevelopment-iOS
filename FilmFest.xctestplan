@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "CFEB6A85-C28A-4ABF-BE42-808D41AC7559",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:FilmFest.xcodeproj",
+      "identifier" : "CCCB29BC2CA7508200286FAD",
+      "name" : "FilmFest"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : false,
+      "target" : {
+        "containerPath" : "container:FilmFest.xcodeproj",
+        "identifier" : "CCCB29D22CA7508400286FAD",
+        "name" : "FilmFestTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:FilmFest.xcodeproj",
+        "identifier" : "CCCB29DC2CA7508400286FAD",
+        "name" : "FilmFestUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
